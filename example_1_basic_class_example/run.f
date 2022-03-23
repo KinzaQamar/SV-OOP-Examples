@@ -21,5 +21,5 @@
 animal.sv 
 top.sv
 
-//For simulating on Xcelium SimVision GUI mode, uncomment the below lines
+//For simulating on Xcelium SimVision GUI mode, uncomment the below line
 //-access +rwc -gui
