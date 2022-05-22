@@ -12,13 +12,14 @@
 // Language:       SystemVerilog - OOP                                                                 //
 //                                                                                                     //
 // Description:                                                                                        //
-//         - This example class aims to demonstrate SystemVerilog Classes and how to utilize the class.//
-//                                                                                                     //
+//             This example class aims to demonstrate SystemVerilog Classes and how to utilize 				 //
+//             the class.                                                                              //
 // Revision Date:                                                                                      //
-//                                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class animal;
+
+	//Class properties
   int age;
   string name;
 
@@ -38,4 +39,5 @@ class animal;
 		repeat(how_long)
 		#1 age++;
 	endtask
+
 endclass
